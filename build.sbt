@@ -11,3 +11,9 @@ libraryDependencies ++= Seq(
   cache,
   javaWs
 )
+
+enablePlugins(DebianPlugin)
+maintainer := "aa_bb <aa@bb.com>"
+packageSummary := "My Custom Debian Package"
+packageDescription := "Debian Package For Play Demo"
+
